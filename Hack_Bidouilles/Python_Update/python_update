@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+from updater.PythonUpdater import PythonUpdater
+
+if __name__ == '__main__':
+    pythonUpdate = PythonUpdater('python', 'https://www.python.org/downloads', 'user@chez.moi')
+    pythonUpdate.start()
